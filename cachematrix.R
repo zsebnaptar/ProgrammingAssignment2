@@ -3,10 +3,10 @@
 ## creates a special "matrix" object that can cache its inverse.
 
 ## contains the following functions:
-## set: set the value of the vector
-## get: get the value of the vector
-## setinverse: set the value of the mean
-## getinverse: get the value of the mean
+## set: set the value of the matrix
+## get: get the value of the matriw
+## setinverse: set the value of the inverse
+## getinverse: get the value of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
